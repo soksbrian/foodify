@@ -1,23 +1,41 @@
 {
   "name": "foodify",
   "version": "1.0.0",
+  "author": "",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "webpack -d --watch",
+    "server": "nodemon server/server.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/soksbrian/foodify.git"
   },
   "keywords": [],
-  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/soksbrian/foodify/issues"
   },
   "homepage": "https://github.com/soksbrian/foodify#readme",
   "dependencies": {
-    "webpack": "^4.17.1"
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^1.0.0",
+    "express": "^4.16.3",
+    "nodemon": "^1.18.3",
+    "prop-types": "^15.6.2",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "style-loader": "^0.22.1",
+    "webpack": "^4.17.1",
+    "yelp-fusion": "^2.0.3"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.1.0"
   }
 }
