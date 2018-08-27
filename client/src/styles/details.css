@@ -1,0 +1,11 @@
+.details-column {
+  float: left;
+  height: 400px;
+  width: 55%;
+  border: 1px solid blue;
+}
+
+.details-wrapper {
+  padding: 50px;
+  font-size: 20px;
+}

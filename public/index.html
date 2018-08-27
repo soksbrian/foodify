@@ -5,24 +5,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   </head>
   <body>
-    <div>THIS IS THE APP</div>
-    <div>
-      <button id="location-btn">Get User Location</button>
-    </div>
-  
-    <script> 
-      $('#location-btn').click(() => {
-        if (navigator.geolocation) {
-          navigator.geolocation.getCurrentPosition((pos) => {
-            console.log('lat:', pos.coords.latitude);
-            console.log('long:', pos.coords.longitude);
-
-          });
-        } else {
-          console.log('geolocation is not supported');
-        }
-      })
-    </script>
+    <div id="app">React App goes here</div>
     <script src="bundle.js"></script>
   </body>
 </html>
