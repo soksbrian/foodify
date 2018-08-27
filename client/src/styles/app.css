@@ -1,0 +1,10 @@
+.btn-wrapper {
+  text-align: center;
+  border: 1px solid red;
+}
+
+.randomizer-btn {
+  width: 50%;
+  height: 50px;
+  background-color: #4CAF50;
+}

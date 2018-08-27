@@ -1,0 +1,18 @@
+.div-wrapper {
+  float: left;
+  height: 400px;
+  width: 40%;
+  border: 1px solid green;
+}
+
+.li-wrapper {
+  float: left;
+  width: 150px;
+  position: relative;
+  left: auto;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
