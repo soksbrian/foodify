@@ -1,10 +1,64 @@
-.btn-wrapper {
+html {
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.banner {
+  font-family: 'Pacifico', cursive;
+  height: 240px;
+  width: 100%;
+  font-size: 140px;
   text-align: center;
-  border: 1px solid red;
+  margin-top: 110px;
+  margin-bottom: 25px;
+}
+
+.randomizer-wrapper {
+  text-align: center;
 }
 
 .randomizer-btn {
+  font: 15px;
   width: 50%;
   height: 50px;
-  background-color: #4CAF50;
+  border-radius: 4px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  font-size: 15px;
+  font-weight: 600;
+  border-width: 2px;
+  border-style: solid;
+  min-width: 77.66563145999496px;
+  padding-right: 8px;
+  padding-left: 8px;
+  box-shadow: none;
+  background: #FF5A5F;
+  border-color: transparent;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.save-wrapper {
+  text-align: right;
+  width: 100%;
+  position: absolute;
+  bottom: 620px;
+  right: 60px
+}
+
+.save-btn {
+  display: inline-block;
+  padding: 8px 16px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #FF5A5F;
+  border-radius: 4px;
+  background: #FF5A5F;
+  box-shadow: 0 1px 2px -2px gray;
+  font-weight: 450;
+  font-size: 14px;
+  text-align: center;
+  line-height: 18px;
+  letter-spacing: normal;
+  color: #ffffff;
+  cursor: pointer;
 }

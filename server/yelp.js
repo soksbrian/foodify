@@ -24,7 +24,6 @@ const searchAll = (lat, long, response) => {
 
 const searchOne = (alias, response) => {
   client.business(alias).then(data => {
-    console.log('searchOne', data.jsonBody);
     response.send(data.jsonBody);
   }).catch(err => {
     console.log(err);

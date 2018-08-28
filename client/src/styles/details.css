@@ -1,11 +1,15 @@
 .details-column {
   float: left;
-  height: 400px;
+  height: 385px;
   width: 55%;
-  border: 1px solid blue;
+  border: 1px solid;
+  border-color: rgb(228, 228, 228);
+  border-left: none;
 }
 
 .details-wrapper {
-  padding: 50px;
+  padding-top: 15px;
+  padding-left: 40px;
   font-size: 20px;
+  line-height: 1.7;
 }
