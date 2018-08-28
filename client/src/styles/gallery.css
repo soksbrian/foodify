@@ -1,8 +1,11 @@
 .div-wrapper {
   float: left;
-  height: 400px;
+  height: 360px;
   width: 40%;
-  border: 1px solid green;
+  padding: 10px;
+  border: 1px solid;
+  border-color: rgb(228, 228, 228);
+  border-right: none;
 }
 
 .li-wrapper {
@@ -10,6 +13,7 @@
   width: 150px;
   position: relative;
   left: auto;
+  list-style: none;
 }
 
 img {

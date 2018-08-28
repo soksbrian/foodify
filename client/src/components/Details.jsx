@@ -5,6 +5,13 @@ const Details = ({ restaurant }) => (
   <div className="details-column">
     <div className="details-wrapper"> 
       <div>Name: {restaurant.name}</div>
+      <div>Cuisines:
+          {
+            restaurant.categories.map((cuisine,idx) => {
+              return <li key={idx}>{cuisine.title}</li>
+            })
+          }
+      </div>
       <div>Phone: {restaurant.display_phone}</div>
       <div>Address: {restaurant.location.address1}</div>
       <div>Price: {restaurant.price}</div>
